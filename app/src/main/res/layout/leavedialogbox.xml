@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+        android:id="@+id/ereason"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:gravity="center"
+        android:background="@drawable/rounded_while"
+        android:hint="Reason"
+        android:inputType="textPersonName"
+        android:textSize="26dp" />
+
+
+    <TextView
+        android:id="@+id/edatefrom"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/ereason"
+        android:background="@drawable/rounded_while"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Date to"
+        android:inputType="textPersonName"
+        android:textSize="26dp" />
+
+
+    <TextView
+        android:id="@+id/edateto"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/edatefrom"
+        android:background="@drawable/rounded_while"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:hint="Date From"
+        android:inputType="textPersonName"
+        android:textSize="26dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/edateto"
+        android:layout_marginBottom="30dp"
+        >
+
+        <Button
+            android:id="@+id/bapprove"
+            android:layout_width="wrap_content"
+            android:layout_weight="30"
+            android:layout_height="wrap_content"
+            android:text="Approve"
+            android:layout_gravity="left"
+            />
+
+        <Button
+            android:id="@+id/breject"
+            android:layout_width="wrap_content"
+            android:layout_weight="30"
+            android:layout_height="wrap_content"
+            android:text="Reject"
+            android:layout_gravity="right"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

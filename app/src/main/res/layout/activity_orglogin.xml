@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".orglogin"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:fontFamily="serif"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="122dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Organization name"
+        android:gravity="center_horizontal"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="202dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Organization Id"
+        android:gravity="center_horizontal"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="268dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="Login"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="326dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:text="New member?"
+        android:textColor="#000"
+        android:gravity="center_vertical"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="393dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="Register  Here"
+        android:gravity="center_vertical"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="422dp"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>

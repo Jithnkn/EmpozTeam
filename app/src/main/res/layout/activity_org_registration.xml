@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    tools:context=".org_registration">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:gravity="center"
+        android:text="REGISTRATION"
+        android:textSize="36sp"
+        app:fontFamily="serif" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="124dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="Org_Id"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="84dp"
+            tools:layout_editor_absoluteY="109dp" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="Org_name"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="84dp"
+            tools:layout_editor_absoluteY="182dp" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="Password"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="84dp"
+            tools:layout_editor_absoluteY="252dp" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="Confirm_password"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="84dp"
+            tools:layout_editor_absoluteY="318dp" />
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="Website"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="84dp"
+            tools:layout_editor_absoluteY="379dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="77dp"
+        android:background="@android:color/transparent"
+        android:text="Submit" />
+
+
+</RelativeLayout>

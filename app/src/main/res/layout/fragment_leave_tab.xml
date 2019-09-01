@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/leave"
+    tools:context=".fragment.LeaveFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+            <EditText
+                android:id="@+id/EditReason"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:hint="Reason"
+                android:layout_margin="5dp"/>
+
+<LinearLayout
+    android:layout_marginTop="30dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    >
+    <DatePicker
+        android:id="@+id/datefrom"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:layout_marginRight="200dp"
+        >
+    </DatePicker>
+
+    <DatePicker
+        android:id="@+id/dateto"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        >
+    </DatePicker>
+
+
+
+
+
+</LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textview1"
+                android:gravity="center"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_marginLeft="180dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textview2"
+                android:gravity="center"
+                android:textColor="#000"
+                />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+
+            >
+        <Button
+
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:text="Submit"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:layout_margin="5dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </LinearLayout>
