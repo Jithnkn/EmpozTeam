@@ -1,6 +1,22 @@
 package com.example.training.empoz.adapters;
 
-public class Employee {
+public class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Employee {
 
 
         public String name;
